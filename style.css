@@ -1,0 +1,49 @@
+@charset "UTF-8";
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* main contents */
+body {
+  background-color: rgb(230, 230, 230);
+}
+.wrapper {
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  /* 子要素を横並びにする */
+  display: flex;
+}
+/* .boxの共通CSS */
+.box {
+  /* box本体のCSS */
+  width: 320px;
+  height: 200px;
+  background-color: pink;
+  /* 文字色、配置位置設定 */
+  line-height: 200px;
+  color: white;
+  font-style: 3rem;
+  text-align: center;
+  /* boxどうしの間隔を開ける */
+  margin: 10px;
+}
+.box:nth-child(odd) {
+    background-color: aquamarine;
+}
+.box:nth-child(odd):hover {
+    background-color: brown;
+}
+.box:nth-child(even):hover {
+    background-color: green;
+}

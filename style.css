@@ -32,8 +32,8 @@ body {
   background-color: pink;
   /* 文字色、配置位置設定 */
   line-height: 200px;
-  color: white;
-  font-style: 3rem;
+  color: black;
+  font-size: 3rem;
   text-align: center;
   /* boxどうしの間隔を開ける */
   margin: 10px;

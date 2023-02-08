@@ -33,10 +33,11 @@ body {
   /* 文字色、配置位置設定 */
   line-height: 200px;
   color: black;
-  font-size: 3rem;
+  font-size: 5rem;
   text-align: center;
   /* boxどうしの間隔を開ける */
-  margin: 10px;
+  margin: 20px;
+  /* padding: 10px; */
 }
 .box:nth-child(odd) {
     background-color: aquamarine;

@@ -23,6 +23,7 @@ body {
   margin: 0 auto;
   /* 子要素を横並びにする */
   display: flex;
+flex-wrap: wrap;
 }
 /* .boxの共通CSS */
 .box {
@@ -43,8 +44,14 @@ body {
     background-color: aquamarine;
 }
 .box:nth-child(odd):hover {
-    background-color: brown;
+    /* background-color: brown; */
+    opacity: 0.7;
 }
 .box:nth-child(even):hover {
-    background-color: green;
+    /* background-color: green; */
+    opacity: 0.7;
+}
+#logo:hover {
+    /* background-color: green; */
+    opacity: 0.3;
 }

@@ -1,0 +1,78 @@
+@charset "UTF-8";
+/* reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  line-height: 1;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+/* main contents */
+body {
+  background-color: rgb(230, 230, 230);
+}
+.wrapper {
+  background-color: white;
+  width: 960px;
+  margin: 0 auto;
+  /* 子要素を横並びにする */
+  display: flex;
+flex-wrap: wrap;
+}
+/* .boxの共通CSS */
+.box {
+  /* box本体のCSS */
+  width: 300px;
+  height: 200px;
+  background-color: pink;
+  /* 文字色、配置位置設定 */
+  line-height: 200px;
+  color: black;
+  font-size: 5rem;
+  text-align: center;
+  /* boxどうしの間隔を開ける */
+  margin: 10px;
+  /* padding: 10px; */
+}
+.box:nth-child(odd) {
+    background-color: aquamarine;
+}
+.box:nth-child(odd):hover {
+    /* background-color: brown; */
+    opacity: 0.7;
+}
+.box:nth-child(even):hover {
+    /* background-color: green; */
+    opacity: 0.7;
+}
+#logo:hover {
+    /* background-color: green; */
+    opacity: 0.3;
+}
+@media screen and (min-width: 480px){
+  .test {
+    color: red;
+  }
+}
+  
+@media screen and (max-width: 479.9px){
+  .test {
+    color: blue;
+  }
+}
+@media screen and (max-width: 991.9px){
+  .wrapper {
+  width: 640px;
+  }
+}
+@media screen and (max-width: 767.9px){
+  .wrapper {
+  width: 320px;
+  }
+}

@@ -19,39 +19,62 @@ body {
 }
 .wrapper {
   background-color: white;
-  width: 960px;
+  /* width: 960px; */
   margin: 0 auto;
   /* 子要素を横並びにする */
   display: flex;
-flex-wrap: wrap;
-}
-/* .boxの共通CSS */
-.box {
-  /* box本体のCSS */
+  flex-wrap: wrap;
   width: 320px;
+}
+@media screen and (min-width: 768px) and (max-width: 991.9px) {
+  .wrapper {
+    width: 640px;
+  }
+}
+@media screen and (min-width: 992px) {
+  .wrapper {
+    width: 960px;
+  }
+}
+
+/* .boxの共通CSS */
+/* .box > img { */
+.box {
+  /* width: 100%; */
+  /* box本体のCSS */
+  width: 300px;
   height: 200px;
+  /* height: 140px; */
+  object-fit: cover;
   background-color: pink;
   /* 文字色、配置位置設定 */
   line-height: 200px;
-  color: black;
+  /* color: black; */
   font-size: 5rem;
   text-align: center;
   /* boxどうしの間隔を開ける */
-  margin: 20px;
+  margin: 10px;
   /* padding: 10px; */
 }
 .box:nth-child(odd) {
-    background-color: aquamarine;
+  background-color: aquamarine;
 }
 .box:nth-child(odd):hover {
-    /* background-color: brown; */
-    opacity: 0.7;
+  /* background-color: brown; */
+  opacity: 0.7;
 }
 .box:nth-child(even):hover {
-    /* background-color: green; */
-    opacity: 0.7;
+  /* background-color: green; */
+  opacity: 0.7;
 }
-#logo:hover {
-    /* background-color: green; */
-    opacity: 0.3;
+/* @media screen and (min-width: 480px){
+  .test {
+    color: red;
+  }
 }
+   */
+/* @media screen and (max-width: 479.9px){
+  .test {
+    color: blue;
+  }
+} */

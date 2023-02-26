@@ -1,0 +1,83 @@
+* {
+  font-family: "Hiragino Kaku Gothic ProN", "Hiragino Sans", Meiryo, sans-serif;
+  text-decoration: none;
+  margin: 0;
+}
+.header {
+  background: #0095d9;
+  text-align: center;
+  color: white;
+  font-size: 14px;
+  padding: 10px;
+}
+.tatakau {
+  font-size: 28px;
+  background: #0095d9;
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.wrapper {
+  width: 1280px;
+  margin: 0px auto;
+  /* 子要素を横並びにする */
+  display: flex;
+  flex-wrap: wrap;
+}
+.contents {
+  /* box本体のCSS */
+  width: 176px;
+  height: 60px;
+  /* 文字色、配置位置設定 */
+  color: black;
+  font-weight: bold;
+  font-size: 16px;
+  /* boxどうしの間隔を開ける */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.wrapper :hover {
+  background: lightgray;
+  text-decoration: underline;
+}
+.main {
+  width: 100%;
+  color: blue;
+  min-height: 20vh;
+  /* min-height: 100vh; */
+  font-size: 30px;
+  background: #E6ECF0;
+  display: flex;
+  justify-content: center;
+
+}
+.footer {
+  width: 1256px;
+  height: 90px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer-container {
+  width: 1256px;
+  height: 90px;
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: space-between; */
+}
+.footer-item {
+  font-size: 20px;
+  display: flex;
+  align-items: flex-end;
+  /* justify-content: space-around; */
+}
+.footer-right {
+  font-size: 14px;
+  /* justify-content: space-between; */
+  justify-content: flex-end;
+  display: flex;
+  align-items: center;
+  /* color: gray; */
+}

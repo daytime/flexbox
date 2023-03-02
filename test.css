@@ -3,16 +3,26 @@
   /* background-color: pink; */
   font-size: 50px;
 }
+.container {
+  width: 800px;
+  display: flex;
+}
 .aaa {
   display: flex;
   list-style: none;
 }
 .container {
+  width: 800px;
   display: flex;
 }
 .bbb {
-  /* flex-wrap: wrap; */
-  width: 150px;
+  width: 200px;
   height: 150px;
   flex-direction: row;
+  opacity: 0.7;
+  margin: 30px;
+  padding: 30px;
+}
+.bbb:hover {
+  opacity: 1;
 }

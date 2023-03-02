@@ -8,15 +8,11 @@
   list-style: none;
 }
 .container {
-  width: 800px;
-  margin-left: 10px;
   display: flex;
 }
 .bbb {
+  /* flex-wrap: wrap; */
   width: 150px;
   height: 150px;
-  margin-left: 10px;
-  border: 10px;
-  padding-right: 10px;
   flex-direction: row;
 }

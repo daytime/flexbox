@@ -16,6 +16,7 @@
   display: flex;
 }
 .bbb {
+  /* flex-wrap: wrap; */
   width: 200px;
   height: 150px;
   flex-direction: row;

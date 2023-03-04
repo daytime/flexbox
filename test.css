@@ -10,19 +10,30 @@
 .aaa {
   display: flex;
   list-style: none;
+  flex-wrap: wrap;
 }
 .container {
-  width: 800px;
+  width: 1200px;
   display: flex;
 }
-.bbb {
-  /* flex-wrap: wrap; */
+img {
   width: 200px;
   height: 150px;
-  flex-direction: row;
-  opacity: 0.7;
   margin: 30px;
   padding: 30px;
+  opacity: 0.7;
+}
+.bbb {
+  flex-direction: row;
+  width: 200px;
+  height: 150px;
+}
+div {
+  margin-top: 30px;
+  padding-top: 30px;
+   */display: flex;
+  list-style: none;
+  flex-wrap: wrap;
 }
 .bbb:hover {
   opacity: 1;

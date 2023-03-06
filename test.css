@@ -6,7 +6,10 @@
 * {
   margin: 0;
   /* background-color: #5555ff; */
+}
+html {
   background-image: url(./img/img12.png);
+
 }
 .container {
   width: 800px;

@@ -1,9 +1,12 @@
 .title_guideline {
 
     list-style-type: none;
+    width: 400px;
+    margin-left: 100px;
 
 }
 .title {
-    font-weight: bold;
     /* background: pink; */
+text-align: left;
+font-size: 20px;
 }

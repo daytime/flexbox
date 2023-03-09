@@ -6,6 +6,7 @@
     list-style-type: none;
     width: 400px;
     margin-left: 100px;
+    margin-bottom: 100px;
 
 }
 .title {
@@ -13,16 +14,23 @@
 font-weight: bold;
 margin-bottom: 30px;
 font-size: 20px;
+flex-direction: row;
 }
-/* .object { */
+.object {
+display: flex;
+}
 container {
-    width: 800px;
+    border-top: solid 1px #dedede;
+    border-bottom: solid 1px #dedede;
+    width: 300px;
     margin: 200px;
 }
 dt {
     float: left;
+    width: 10%;
 }
-dt::after {
-content: ":";
+dd {
+    width: 90%;
+
 }
 

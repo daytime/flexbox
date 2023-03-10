@@ -12,22 +12,29 @@
 .title {
     /* background: pink; */
 font-weight: bold;
-margin-bottom: 30px;
+/* margin-bottom: 30px; */
 font-size: 20px;
-flex-direction: row;
 }
 .object {
 display: flex;
 }
+dl {
+    flex-direction: column;
+}
 container {
+    flex-direction: column;
+    width: 350px;
+    margin: 200px;
+}
+.inner {
+    margin: 20px 0px;
+    padding: 20px 0px;
     border-top: solid 1px #dedede;
     border-bottom: solid 1px #dedede;
-    width: 300px;
-    margin: 200px;
 }
 dt {
     float: left;
-    width: 10%;
+    width: 30%;
 }
 dd {
     width: 90%;

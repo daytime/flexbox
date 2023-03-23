@@ -1,43 +1,63 @@
 * {
-    margin: 0px;
+  margin: 0px;
 }
 .title_guideline {
-
-    list-style-type: none;
-    width: 400px;
-    margin-left: 100px;
-    margin-bottom: 100px;
-
+  list-style-type: none;
+  width: 800px;
+  margin-left: 100px;
+  margin-bottom: 100px;
 }
 .title {
-    /* background: pink; */
-font-weight: bold;
-/* margin-bottom: 30px; */
-font-size: 20px;
+  /* background: pink; */
+  font-weight: bold;
+  /* margin-bottom: 30px; */
+  font-size: 20px;
 }
 .object {
-display: flex;
+  display: flex;
+}
+.detail {
+  display: flex;
+  flex-direction: row;
+}
+.explanatory {
+  /* flex-direction: row; */
+  /* display: flex; */
+}
+img {
+  width: 300px;
+  height: 300px;
 }
 dl {
-    flex-direction: column;
+  flex-direction: column;
+  font-size: 14px;
 }
 container {
-    flex-direction: column;
-    width: 350px;
-    margin: 200px;
+  flex-direction: column;
+  width: 300px;
+  margin: 200px;
 }
 .inner {
-    margin: 20px 0px;
-    padding: 20px 0px;
-    border-top: solid 1px #dedede;
-    border-bottom: solid 1px #dedede;
+  margin: 20px 0px;
+  padding: 20px 0px;
+  border-top: solid 1px #dedede;
+  border-bottom: solid 1px #dedede;
 }
 dt {
-    float: left;
-    width: 30%;
+  float: left;
+  width: 20%;
 }
 dd {
-    width: 90%;
-
+  width: 80%;
+}
+.explanatoryText {
+  margin-bottom: 20px;
+  font-size: 14px;
 }
 
+.onlinestore {
+  font-size: 14px;
+}
+footer {
+  font-size: 10px;
+}

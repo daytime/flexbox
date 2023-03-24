@@ -21,8 +21,7 @@
   flex-direction: row;
 }
 .explanatory {
-  /* flex-direction: row; */
-  /* display: flex; */
+  margin: 30px;
 }
 img {
   width: 300px;
@@ -33,13 +32,12 @@ dl {
   font-size: 14px;
 }
 container {
-  flex-direction: column;
-  width: 300px;
+  width: 700px;
   margin: 200px;
 }
 .inner {
   margin: 20px 0px;
-  padding: 20px 0px;
+  padding: 30px 0px;
   border-top: solid 1px #dedede;
   border-bottom: solid 1px #dedede;
 }
